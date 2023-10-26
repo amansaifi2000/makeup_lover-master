@@ -34,8 +34,8 @@ const Contact = () => {
                 <Image
               src={ContactPhoneIcon} 
               alt="Galley Images" 
-              height={305}
-              width={350}
+              height={12}
+              width={12}
               className="w-12 h-12 object-cover rounded-lg" 
               onError={(e) => {
                 e.target.src = '/images/error.png'; // Path to your error/fallback image
@@ -63,9 +63,9 @@ const Contact = () => {
               <Image
               src={EmailIcon} 
               alt="Galley Images" 
-              height={305}
-              width={350}
-              className="w-350 h-305 object-cover rounded-lg" 
+              height={12}
+              width={12}
+              className="w-12 h-12 object-cover rounded-lg" 
               onError={(e) => {
                 e.target.src = '/images/error.png'; // Path to your error/fallback image
               }}
@@ -91,9 +91,9 @@ const Contact = () => {
               <Image
               src={WorkIcon} 
               alt="Galley Images" 
-              height={305}
-              width={350}
-              className="w-350 h-305 object-cover rounded-lg" 
+              height={12}
+              width={12}
+              className="w-12 h-12 object-cover rounded-lg" 
               onError={(e) => {
                 e.target.src = '/images/error.png'; // Path to your error/fallback image
               }}
@@ -120,9 +120,9 @@ const Contact = () => {
               <Image
               src={PlaceIcon} 
               alt="Galley Images" 
-              height={305}
-              width={350}
-              className="w-350 h-305 object-cover rounded-lg" 
+              height={12}
+              width={12}
+              className="w-12 h-12 object-cover rounded-lg" 
               onError={(e) => {
                 e.target.src = '/images/error.png'; // Path to your error/fallback image
               }}
