@@ -34,9 +34,9 @@ const Header = () => {
           <div className="rounded-full overflow-hidden h-72 w-72 transition duration-300 transform" style={imageContainerStyle}>
             <Image 
               src={ProfileImage} 
-              height={288}
-              width={288}
-              alt="img" 
+              height={72}
+              width={72}
+              alt="img" x
               layout="responsive" 
               objectFit="cover" 
               style={{ 
