@@ -32,19 +32,21 @@ const Header = () => {
       <div className="relative w-full h-80 bg-[url('/images/makeup.jpg')] bg-cover bg-center flex items-end justify-center" style={smallScreenStyles}>
         <div className="absolute bottom-0 mb-[-7.5rem]">
           <div className="rounded-full overflow-hidden h-72 w-72 transition duration-300 transform" style={imageContainerStyle}>
-            <Image 
-              src={ProfileImage} 
-              height={72}
-              width={72}
-              alt="img" x
-              layout="responsive" 
-              objectFit="cover" 
-              style={{ 
-                maskImage: 'radial-gradient(circle, transparent 0%, black 100%)',
-                borderRadius: '50%',
-                border: '10px solid #888888',
-              }} 
-            />
+          <Image 
+  src={ProfileImage} 
+  height={72}
+  width={72}
+  alt="img" 
+  layout="responsive" 
+  objectFit="cover" 
+  style={{ 
+    maskImage: 'radial-gradient(circle, transparent 0%, black 100%)',
+    borderRadius: '50%',
+    border: '10px solid #888888',
+    backgroundColor: '#fff', // Set the background color to white to prevent transparency
+  }} 
+/>
+
           </div>
         </div>
       </div>
