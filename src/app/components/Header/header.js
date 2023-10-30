@@ -7,7 +7,7 @@ const Header = () => {
     height: "700px",
     width: "100%",
     backgroundImage: `url(${MakeupImage.src})`,
-    backgroundRepeat: "no-repeat", // Prevent repeating the background image
+    backgroundRepeat: "no-repeat", 
     backgroundPosition: "center", // Center the background image
     backgroundSize: "cover", // Set the background size to "cover" for wide screens
   };
