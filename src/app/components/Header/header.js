@@ -4,12 +4,12 @@ import MakeupImage from "../../../../public/images/makeup.jpg";
 
 const Header = () => {
   const headerStyle = {
-    height: "700px",
-    width: "100%",
+    height: "700px ",
+    width: "100% ",
     backgroundImage: `url(${MakeupImage.src})`,
     backgroundRepeat: "no-repeat", 
-    backgroundPosition: "center", // Center the background image
-    backgroundSize: "cover", // Set the background size to "cover" for wide screens
+    backgroundPosition: "center",
+    backgroundSize: "cover", 
   };
 
   // For small screens, adjust backgroundSize to "contain"
@@ -27,9 +27,10 @@ const Header = () => {
     width: "288px", // Set the exact width for the image container
   };
 
+
   return (
     <div className="bg-[url('/images/background.png')] bg-cover">
-      <div className="relative w-full h-80 bg-[url('/images/makeup.jpg')] bg-cover bg-center flex items-end justify-center" style={smallScreenStyles}>
+      <div className="header relative w-full h-80 bg-[url('/images/makeup.jpg')] bg-cover bg-center flex items-end justify-center" style={smallScreenStyles}>
         <div className="absolute bottom-0 mb-[-7.5rem]">
           <div className="rounded-full overflow-hidden h-72 w-72 transition duration-300 transform" style={imageContainerStyle}>
             <Image 
