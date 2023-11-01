@@ -23,10 +23,9 @@ const Header = () => {
   const imageContainerStyle = {
     borderRadius: "50%",
     overflow: "hidden",
-    height: "288px", // Set the exact height for the image container
-    width: "288px", // Set the exact width for the image container
+    height: "274px", // Set the exact height for the image container
+    width: "274px", // Set the exact width for the image container
   };
-
 
   return (
     <div className="bg-[url('/images/background.png')] bg-cover">
